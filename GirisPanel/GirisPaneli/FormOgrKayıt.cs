@@ -18,7 +18,7 @@ namespace GirisPaneli
         {
             InitializeComponent();
         }
-        SqlConnection baglanti = new SqlConnection("Data Source=LAPTOP-JC99FFNO\\SQLEXPRESS02;Initial Catalog=OgrenciKayıt;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection("Data Source=LAPTOP-OKGNCDIO\\SQLEXPRESS;Initial Catalog=OgrenciKayit;Integrated Security=True");
        
         void temizle()
         {

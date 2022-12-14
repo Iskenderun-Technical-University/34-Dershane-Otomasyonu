@@ -76,11 +76,17 @@
     <Compile Include="FormOgrKayıt.Designer.cs">
       <DependentUpon>FormOgrKayıt.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormYoneticiVKullaniciGiris.cs">
+    <Compile Include="ogrenciformu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormYoneticiVKullaniciGiris.Designer.cs">
-      <DependentUpon>FormYoneticiVKullaniciGiris.cs</DependentUpon>
+    <Compile Include="ogrenciformu.Designer.cs">
+      <DependentUpon>ogrenciformu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ogretmenBilgi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ogretmenBilgi.Designer.cs">
+      <DependentUpon>ogretmenBilgi.cs</DependentUpon>
     </Compile>
     <Compile Include="OrnekDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -108,6 +114,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormOgrKayıt.resx">
       <DependentUpon>FormOgrKayıt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ogrenciformu.resx">
+      <DependentUpon>ogrenciformu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ogretmenBilgi.resx">
+      <DependentUpon>ogretmenBilgi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -140,6 +152,31 @@
     <None Include="OrnekDataSet1.xss">
       <DependentUpon>OrnekDataSet1.xsd</DependentUpon>
     </None>
+    <None Include="Properties\DataSources\Form1.datasource" />
+    <None Include="Properties\DataSources\FormAnaSayfa.datasource" />
+    <None Include="Properties\DataSources\FormGiris.datasource" />
+    <None Include="Properties\DataSources\FormKullaniciGiris.datasource" />
+    <None Include="Properties\DataSources\FormOgrKayıt.datasource" />
+    <None Include="Properties\DataSources\FormYoneticiVKullaniciGiris.datasource" />
+    <None Include="Properties\DataSources\GirisPaneli.OrnekDataSet1TableAdapters.Kullanici_BilgiTableAdapter.datasource" />
+    <None Include="Properties\DataSources\GirisPaneli.OrnekDataSet1TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\GirisPaneli.OrnekDataSet1TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\GirisPaneli.OrnekDataSetTableAdapters.Kullanici_BilgiTableAdapter.datasource" />
+    <None Include="Properties\DataSources\GirisPaneli.OrnekDataSetTableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\GirisPaneli.OrnekDataSetTableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\GirisPaneli.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\GirisPaneli.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\OrnekDataSet.datasource" />
+    <None Include="Properties\DataSources\OrnekDataSet.Kullanici_BilgiDataTable.datasource" />
+    <None Include="Properties\DataSources\OrnekDataSet.Kullanici_BilgiRow.datasource" />
+    <None Include="Properties\DataSources\OrnekDataSet.Kullanici_BilgiRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\OrnekDataSet.Kullanici_BilgiRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\OrnekDataSet1.datasource" />
+    <None Include="Properties\DataSources\OrnekDataSet1.Kullanici_BilgiDataTable.datasource" />
+    <None Include="Properties\DataSources\OrnekDataSet1.Kullanici_BilgiRow.datasource" />
+    <None Include="Properties\DataSources\OrnekDataSet1.Kullanici_BilgiRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\OrnekDataSet1.Kullanici_BilgiRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

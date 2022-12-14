@@ -60,6 +60,11 @@ namespace GirisPaneli
             fareY = 0;
         }
 
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
             tutus = true;

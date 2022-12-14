@@ -54,7 +54,7 @@ namespace GirisPaneli
         {
             string user = textBox1.Text;
             string password = textBox2.Text;
-            con1 = new SqlConnection("Data Source=LAPTOP-JC99FFNO\\SQLEXPRESS02;Initial Catalog=KullaniciGiris;Integrated Security=True ");
+            con1 = new SqlConnection("Data Source=LAPTOP-OKGNCDIO\\SQLEXPRESS;Initial Catalog=KullaniciGiris;Integrated Security=True ");
             com1 = new SqlCommand();
             con1.Open();
             com1.Connection = con1;
@@ -63,7 +63,7 @@ namespace GirisPaneli
             if (dr1.Read())
             {
 
-                FormAnaSayfa fr = new FormAnaSayfa();
+               ogrenciformu fr = new ogrenciformu();
                 fr.Show();
                 this.Hide();
 
