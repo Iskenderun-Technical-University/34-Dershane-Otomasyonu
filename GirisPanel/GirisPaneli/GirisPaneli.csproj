@@ -82,12 +82,6 @@
     <Compile Include="ogrenciformu.Designer.cs">
       <DependentUpon>ogrenciformu.cs</DependentUpon>
     </Compile>
-    <Compile Include="ogretmenBilgi.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ogretmenBilgi.Designer.cs">
-      <DependentUpon>ogretmenBilgi.cs</DependentUpon>
-    </Compile>
     <Compile Include="OrnekDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -117,9 +111,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ogrenciformu.resx">
       <DependentUpon>ogrenciformu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ogretmenBilgi.resx">
-      <DependentUpon>ogretmenBilgi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

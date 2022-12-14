@@ -13,3 +13,18 @@ C:\Users\berkay\source\repos\GirisPaneli\GirisPaneli\obj\Debug\GirisPaneli.FormA
 C:\Users\berkay\source\repos\GirisPaneli\GirisPaneli\obj\Debug\GirisPaneli.FormOgrKayıt.resources
 C:\Users\berkay\source\repos\GirisPaneli\GirisPaneli\obj\Debug\GirisPaneli.FormGiris.resources
 C:\Users\berkay\source\repos\GirisPaneli\GirisPaneli\obj\Debug\GirisPaneli.FormKullaniciGiris.resources
+C:\Users\SİMAY EDİK\Source\Repos\Iskenderun-Technical-University\34-Dershane-Otomasyonu\GirisPanel\GirisPaneli\bin\Debug\GirisPaneli.exe.config
+C:\Users\SİMAY EDİK\Source\Repos\Iskenderun-Technical-University\34-Dershane-Otomasyonu\GirisPanel\GirisPaneli\bin\Debug\GirisPaneli.exe
+C:\Users\SİMAY EDİK\Source\Repos\Iskenderun-Technical-University\34-Dershane-Otomasyonu\GirisPanel\GirisPaneli\bin\Debug\GirisPaneli.pdb
+C:\Users\SİMAY EDİK\Source\Repos\Iskenderun-Technical-University\34-Dershane-Otomasyonu\GirisPanel\GirisPaneli\obj\Debug\GirisPaneli.csproj.AssemblyReference.cache
+C:\Users\SİMAY EDİK\Source\Repos\Iskenderun-Technical-University\34-Dershane-Otomasyonu\GirisPanel\GirisPaneli\obj\Debug\GirisPaneli.csproj.SuggestedBindingRedirects.cache
+C:\Users\SİMAY EDİK\Source\Repos\Iskenderun-Technical-University\34-Dershane-Otomasyonu\GirisPanel\GirisPaneli\obj\Debug\GirisPaneli.Form1.resources
+C:\Users\SİMAY EDİK\Source\Repos\Iskenderun-Technical-University\34-Dershane-Otomasyonu\GirisPanel\GirisPaneli\obj\Debug\GirisPaneli.FormAnaSayfa.resources
+C:\Users\SİMAY EDİK\Source\Repos\Iskenderun-Technical-University\34-Dershane-Otomasyonu\GirisPanel\GirisPaneli\obj\Debug\GirisPaneli.FormGiris.resources
+C:\Users\SİMAY EDİK\Source\Repos\Iskenderun-Technical-University\34-Dershane-Otomasyonu\GirisPanel\GirisPaneli\obj\Debug\GirisPaneli.FormKullaniciGiris.resources
+C:\Users\SİMAY EDİK\Source\Repos\Iskenderun-Technical-University\34-Dershane-Otomasyonu\GirisPanel\GirisPaneli\obj\Debug\GirisPaneli.FormOgrKayıt.resources
+C:\Users\SİMAY EDİK\Source\Repos\Iskenderun-Technical-University\34-Dershane-Otomasyonu\GirisPanel\GirisPaneli\obj\Debug\GirisPaneli.Properties.Resources.resources
+C:\Users\SİMAY EDİK\Source\Repos\Iskenderun-Technical-University\34-Dershane-Otomasyonu\GirisPanel\GirisPaneli\obj\Debug\GirisPaneli.csproj.GenerateResource.cache
+C:\Users\SİMAY EDİK\Source\Repos\Iskenderun-Technical-University\34-Dershane-Otomasyonu\GirisPanel\GirisPaneli\obj\Debug\GirisPaneli.csproj.CoreCompileInputs.cache
+C:\Users\SİMAY EDİK\Source\Repos\Iskenderun-Technical-University\34-Dershane-Otomasyonu\GirisPanel\GirisPaneli\obj\Debug\GirisPaneli.exe
+C:\Users\SİMAY EDİK\Source\Repos\Iskenderun-Technical-University\34-Dershane-Otomasyonu\GirisPanel\GirisPaneli\obj\Debug\GirisPaneli.pdb
