@@ -10,26 +10,18 @@ using System.Windows.Forms;
 
 namespace GirisPaneli
 {
-    public partial class ogrenciformu : Form
+    public partial class ogretmenbilgi : Form
     {
-        public ogrenciformu()
+        public ogretmenbilgi()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void ogrenciformu_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            
+            ogrenciformu fr =new ogrenciformu();
+            fr.Show();
+            this.Hide();
         }
     }
 }

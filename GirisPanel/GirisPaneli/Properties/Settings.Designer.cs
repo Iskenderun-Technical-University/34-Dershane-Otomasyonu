@@ -33,5 +33,16 @@ namespace GirisPaneli.Properties {
                 return ((string)(this["OrnekConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-OKGNCDIO\\SQLEXPRESS;Initial Catalog=OgrenciKayit;Integrated Se" +
+            "curity=True")]
+        public string OgrenciKayitConnectionString {
+            get {
+                return ((string)(this["OgrenciKayitConnectionString"]));
+            }
+        }
     }
 }

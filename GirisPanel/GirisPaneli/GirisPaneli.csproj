@@ -76,11 +76,33 @@
     <Compile Include="FormOgrKayıt.Designer.cs">
       <DependentUpon>FormOgrKayıt.cs</DependentUpon>
     </Compile>
+    <Compile Include="ogrencibilgiformu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ogrencibilgiformu.Designer.cs">
+      <DependentUpon>ogrencibilgiformu.cs</DependentUpon>
+    </Compile>
     <Compile Include="ogrenciformu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ogrenciformu.Designer.cs">
       <DependentUpon>ogrenciformu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciKayitDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OgrenciKayitDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciKayitDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OgrenciKayitDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ogretmenbilgi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ogretmenbilgi.Designer.cs">
+      <DependentUpon>ogretmenbilgi.cs</DependentUpon>
     </Compile>
     <Compile Include="OrnekDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -109,8 +131,14 @@
     <EmbeddedResource Include="FormOgrKayıt.resx">
       <DependentUpon>FormOgrKayıt.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ogrencibilgiformu.resx">
+      <DependentUpon>ogrencibilgiformu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ogrenciformu.resx">
       <DependentUpon>ogrenciformu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ogretmenbilgi.resx">
+      <DependentUpon>ogretmenbilgi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -121,6 +149,28 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="OgrenciKayitDataSet.xsc">
+      <DependentUpon>OgrenciKayitDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OgrenciKayitDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OgrenciKayitDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OgrenciKayitDataSet.xss">
+      <DependentUpon>OgrenciKayitDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OgrenciKayitDataSet1.xsc">
+      <DependentUpon>OgrenciKayitDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="OgrenciKayitDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OgrenciKayitDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OgrenciKayitDataSet1.xss">
+      <DependentUpon>OgrenciKayitDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="OrnekDataSet.xsc">
       <DependentUpon>OrnekDataSet.xsd</DependentUpon>
     </None>

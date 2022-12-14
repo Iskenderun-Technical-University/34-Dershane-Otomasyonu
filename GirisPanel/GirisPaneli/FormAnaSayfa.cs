@@ -62,7 +62,17 @@ namespace GirisPaneli
 
         private void button7_Click(object sender, EventArgs e)
         {
+            ogretmenbilgi fr = new ogretmenbilgi();
+            fr.Show();
+            this.Hide();
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ogrencibilgiformu fr = new ogrencibilgiformu();
+            fr.Show();
+            this.Hide();
         }
 
         private void panel1_MouseDown(object sender, MouseEventArgs e)
