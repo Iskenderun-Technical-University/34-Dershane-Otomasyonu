@@ -31,3 +31,5 @@ C:\Users\SİMAY EDİK\Source\Repos\Iskenderun-Technical-University\34-Dershane-O
 C:\Users\SİMAY EDİK\Source\Repos\Iskenderun-Technical-University\34-Dershane-Otomasyonu\GirisPanel\GirisPaneli\obj\Debug\GirisPaneli.ogrenciformu.resources
 C:\Users\SİMAY EDİK\Source\Repos\Iskenderun-Technical-University\34-Dershane-Otomasyonu\GirisPanel\GirisPaneli\obj\Debug\GirisPaneli.ogrencibilgiformu.resources
 C:\Users\SİMAY EDİK\Source\Repos\Iskenderun-Technical-University\34-Dershane-Otomasyonu\GirisPanel\GirisPaneli\obj\Debug\GirisPaneli.ogretmenbilgi.resources
+C:\Users\SİMAY EDİK\Source\Repos\Iskenderun-Technical-University\34-Dershane-Otomasyonu\GirisPanel\GirisPaneli\obj\Debug\GirisPaneli.ogrencibilgi2.resources
+C:\Users\SİMAY EDİK\Source\Repos\Iskenderun-Technical-University\34-Dershane-Otomasyonu\GirisPanel\GirisPaneli\obj\Debug\GirisPaneli.ogretmenbilgi2.resources

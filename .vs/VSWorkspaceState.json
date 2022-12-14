@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\GirisPanel",
+    "\\GirisPanel\\GirisPaneli"
   ],
-  "SelectedNode": "\\GirisPaneli.sln",
+  "SelectedNode": "\\GirisPanel\\GirisPaneli\\FormAnaSayfa.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -29,7 +29,16 @@ namespace GirisPaneli
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
+            ogrencibilgiformu fr = new ogrencibilgiformu();
+            fr.Show();
+            this.Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            ogretmenbilgi fr = new ogretmenbilgi();
+            fr.Show();
+            this.Hide();
         }
     }
 }

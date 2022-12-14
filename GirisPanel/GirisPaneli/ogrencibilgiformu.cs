@@ -30,5 +30,12 @@ namespace GirisPaneli
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+             ogrenciformu fr = new ogrenciformu();
+            fr.Show();
+            this.Hide();
+        }
     }
 }

@@ -62,7 +62,7 @@ namespace GirisPaneli
 
         private void button7_Click(object sender, EventArgs e)
         {
-            ogretmenbilgi fr = new ogretmenbilgi();
+            ogretmenbilgi2 fr = new ogretmenbilgi2();
             fr.Show();
             this.Hide();
 
@@ -70,7 +70,7 @@ namespace GirisPaneli
 
         private void button3_Click(object sender, EventArgs e)
         {
-            ogrencibilgiformu fr = new ogrencibilgiformu();
+            ogrencibilgi2 fr = new ogrencibilgi2();
             fr.Show();
             this.Hide();
         }

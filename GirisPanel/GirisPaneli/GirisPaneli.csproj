@@ -76,6 +76,12 @@
     <Compile Include="FormOgrKayıt.Designer.cs">
       <DependentUpon>FormOgrKayıt.cs</DependentUpon>
     </Compile>
+    <Compile Include="ogrencibilgi2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ogrencibilgi2.Designer.cs">
+      <DependentUpon>ogrencibilgi2.cs</DependentUpon>
+    </Compile>
     <Compile Include="ogrencibilgiformu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,11 +104,22 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>OgrenciKayitDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="OgrenciKayitDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OgrenciKayitDataSet2.xsd</DependentUpon>
+    </Compile>
     <Compile Include="ogretmenbilgi.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ogretmenbilgi.Designer.cs">
       <DependentUpon>ogretmenbilgi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ogretmenbilgi2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ogretmenbilgi2.Designer.cs">
+      <DependentUpon>ogretmenbilgi2.cs</DependentUpon>
     </Compile>
     <Compile Include="OrnekDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -131,6 +148,9 @@
     <EmbeddedResource Include="FormOgrKayıt.resx">
       <DependentUpon>FormOgrKayıt.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ogrencibilgi2.resx">
+      <DependentUpon>ogrencibilgi2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ogrencibilgiformu.resx">
       <DependentUpon>ogrencibilgiformu.cs</DependentUpon>
     </EmbeddedResource>
@@ -139,6 +159,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ogretmenbilgi.resx">
       <DependentUpon>ogretmenbilgi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ogretmenbilgi2.resx">
+      <DependentUpon>ogretmenbilgi2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -170,6 +193,17 @@
     </None>
     <None Include="OgrenciKayitDataSet1.xss">
       <DependentUpon>OgrenciKayitDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="OgrenciKayitDataSet2.xsc">
+      <DependentUpon>OgrenciKayitDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="OgrenciKayitDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OgrenciKayitDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OgrenciKayitDataSet2.xss">
+      <DependentUpon>OgrenciKayitDataSet2.xsd</DependentUpon>
     </None>
     <None Include="OrnekDataSet.xsc">
       <DependentUpon>OrnekDataSet.xsd</DependentUpon>
