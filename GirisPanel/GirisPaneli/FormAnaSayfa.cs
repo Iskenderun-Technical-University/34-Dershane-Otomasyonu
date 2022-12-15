@@ -75,6 +75,18 @@ namespace GirisPaneli
             this.Hide();
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            odevkayit fr =new odevkayit();
+            fr.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
             tutus = true;

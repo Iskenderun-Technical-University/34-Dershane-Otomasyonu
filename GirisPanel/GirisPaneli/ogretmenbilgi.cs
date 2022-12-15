@@ -23,5 +23,10 @@ namespace GirisPaneli
             fr.Show();
             this.Hide();
         }
+
+        private void ogretmenbilgi_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

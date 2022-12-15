@@ -28,7 +28,7 @@ namespace GirisPaneli
         {
             string user = textBox1.Text;
             string password = textBox2.Text;
-            con = new SqlConnection("Data Source=LAPTOP-OKGNCDIO\\SQLEXPRESS;Initial Catalog=Ornek;Integrated Security=True");
+            con = new SqlConnection("Data Source=EMIR\\SQLEXPRESS;Initial Catalog=Ornek;Integrated Security=True");
             com = new SqlCommand();
             con.Open();
             com.Connection = con;

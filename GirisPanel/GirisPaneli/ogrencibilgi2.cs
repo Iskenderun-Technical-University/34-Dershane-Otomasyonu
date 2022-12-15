@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace GirisPaneli
 {
@@ -19,8 +20,9 @@ namespace GirisPaneli
 
         private void ogrencibilgi2_Load(object sender, EventArgs e)
         {
-            // TODO: Bu kod satırı 'ogrenciKayitDataSet2.Ogr_Kayit' tablosuna veri yükler. Bunu gerektiği şekilde taşıyabilir, veya kaldırabilirsiniz.
-            this.ogr_KayitTableAdapter.Fill(this.ogrenciKayitDataSet2.Ogr_Kayit);
+            // TODO: This line of code loads data into the 'ogrenciKayitDataSet3.Ogr_Kayit' table. You can move, or remove it, as needed.
+            this.ogr_KayitTableAdapter1.Fill(this.ogrenciKayitDataSet3.Ogr_Kayit);
+         
 
         }
 

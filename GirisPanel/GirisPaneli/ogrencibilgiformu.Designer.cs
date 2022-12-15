@@ -30,17 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.ogrNoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ogrAdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ogrSoyadDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ogrSinifDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ogrDalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ogrCinsiyetDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ogrAdresDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ıdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.veliAdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.veliTelDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.veliYakinlikDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ogrKayitBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.ogrenciKayitDataSet1 = new GirisPaneli.OgrenciKayitDataSet1();
             this.ogrenciKayitDataSet = new GirisPaneli.OgrenciKayitDataSet();
@@ -48,6 +37,17 @@
             this.ogr_KayitTableAdapter = new GirisPaneli.OgrenciKayitDataSetTableAdapters.Ogr_KayitTableAdapter();
             this.ogr_KayitTableAdapter1 = new GirisPaneli.OgrenciKayitDataSet1TableAdapters.Ogr_KayitTableAdapter();
             this.button1 = new System.Windows.Forms.Button();
+            this.ıdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ogrNoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ogrAdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ogrSoyadDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ogrSinifDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ogrDalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ogrCinsiyetDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ogrAdresDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.veliAdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.veliTelDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.veliYakinlikDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ogrKayitBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ogrenciKayitDataSet1)).BeginInit();
@@ -60,6 +60,7 @@
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ıdDataGridViewTextBoxColumn,
             this.ogrNoDataGridViewTextBoxColumn,
             this.ogrAdDataGridViewTextBoxColumn,
             this.ogrSoyadDataGridViewTextBoxColumn,
@@ -67,18 +68,69 @@
             this.ogrDalDataGridViewTextBoxColumn,
             this.ogrCinsiyetDataGridViewTextBoxColumn,
             this.ogrAdresDataGridViewTextBoxColumn,
-            this.ıdDataGridViewTextBoxColumn,
             this.veliAdDataGridViewTextBoxColumn,
             this.veliTelDataGridViewTextBoxColumn,
             this.veliYakinlikDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.ogrKayitBindingSource1;
-            this.dataGridView1.Location = new System.Drawing.Point(-2, 3);
+            this.dataGridView1.Location = new System.Drawing.Point(-1, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 82;
             this.dataGridView1.RowTemplate.Height = 33;
-            this.dataGridView1.Size = new System.Drawing.Size(1931, 1111);
+            this.dataGridView1.Size = new System.Drawing.Size(994, 578);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // ogrKayitBindingSource1
+            // 
+            this.ogrKayitBindingSource1.DataMember = "Ogr_Kayit";
+            this.ogrKayitBindingSource1.DataSource = this.ogrenciKayitDataSet1;
+            // 
+            // ogrenciKayitDataSet1
+            // 
+            this.ogrenciKayitDataSet1.DataSetName = "OgrenciKayitDataSet1";
+            this.ogrenciKayitDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // ogrenciKayitDataSet
+            // 
+            this.ogrenciKayitDataSet.DataSetName = "OgrenciKayitDataSet";
+            this.ogrenciKayitDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // ogrKayitBindingSource
+            // 
+            this.ogrKayitBindingSource.DataMember = "Ogr_Kayit";
+            this.ogrKayitBindingSource.DataSource = this.ogrenciKayitDataSet;
+            // 
+            // ogr_KayitTableAdapter
+            // 
+            this.ogr_KayitTableAdapter.ClearBeforeFill = true;
+            // 
+            // ogr_KayitTableAdapter1
+            // 
+            this.ogr_KayitTableAdapter1.ClearBeforeFill = true;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DarkGreen;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(413, 590);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(124, 43);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Geri Dön";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // ıdDataGridViewTextBoxColumn
+            // 
+            this.ıdDataGridViewTextBoxColumn.DataPropertyName = "Id";
+            this.ıdDataGridViewTextBoxColumn.HeaderText = "Id";
+            this.ıdDataGridViewTextBoxColumn.MinimumWidth = 10;
+            this.ıdDataGridViewTextBoxColumn.Name = "ıdDataGridViewTextBoxColumn";
+            this.ıdDataGridViewTextBoxColumn.ReadOnly = true;
+            this.ıdDataGridViewTextBoxColumn.Width = 50;
             // 
             // ogrNoDataGridViewTextBoxColumn
             // 
@@ -136,15 +188,6 @@
             this.ogrAdresDataGridViewTextBoxColumn.Name = "ogrAdresDataGridViewTextBoxColumn";
             this.ogrAdresDataGridViewTextBoxColumn.Width = 200;
             // 
-            // ıdDataGridViewTextBoxColumn
-            // 
-            this.ıdDataGridViewTextBoxColumn.DataPropertyName = "Id";
-            this.ıdDataGridViewTextBoxColumn.HeaderText = "Id";
-            this.ıdDataGridViewTextBoxColumn.MinimumWidth = 10;
-            this.ıdDataGridViewTextBoxColumn.Name = "ıdDataGridViewTextBoxColumn";
-            this.ıdDataGridViewTextBoxColumn.ReadOnly = true;
-            this.ıdDataGridViewTextBoxColumn.Width = 50;
-            // 
             // veliAdDataGridViewTextBoxColumn
             // 
             this.veliAdDataGridViewTextBoxColumn.DataPropertyName = "VeliAd";
@@ -169,57 +212,17 @@
             this.veliYakinlikDataGridViewTextBoxColumn.Name = "veliYakinlikDataGridViewTextBoxColumn";
             this.veliYakinlikDataGridViewTextBoxColumn.Width = 150;
             // 
-            // ogrKayitBindingSource1
-            // 
-            this.ogrKayitBindingSource1.DataMember = "Ogr_Kayit";
-            this.ogrKayitBindingSource1.DataSource = this.ogrenciKayitDataSet1;
-            // 
-            // ogrenciKayitDataSet1
-            // 
-            this.ogrenciKayitDataSet1.DataSetName = "OgrenciKayitDataSet1";
-            this.ogrenciKayitDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // ogrenciKayitDataSet
-            // 
-            this.ogrenciKayitDataSet.DataSetName = "OgrenciKayitDataSet";
-            this.ogrenciKayitDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // ogrKayitBindingSource
-            // 
-            this.ogrKayitBindingSource.DataMember = "Ogr_Kayit";
-            this.ogrKayitBindingSource.DataSource = this.ogrenciKayitDataSet;
-            // 
-            // ogr_KayitTableAdapter
-            // 
-            this.ogr_KayitTableAdapter.ClearBeforeFill = true;
-            // 
-            // ogr_KayitTableAdapter1
-            // 
-            this.ogr_KayitTableAdapter1.ClearBeforeFill = true;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.DarkGreen;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(826, 1135);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(247, 83);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Geri Dön";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // ogrencibilgiformu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1931, 1230);
+            this.ClientSize = new System.Drawing.Size(1004, 552);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ogrencibilgiformu";
-            this.Text = "ogrencibilgiformu";
+            this.Text = "Öğrenci Bilgileri";
             this.Load += new System.EventHandler(this.ogrencibilgiformu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ogrKayitBindingSource1)).EndInit();
@@ -239,6 +242,8 @@
         private OgrenciKayitDataSet1 ogrenciKayitDataSet1;
         private System.Windows.Forms.BindingSource ogrKayitBindingSource1;
         private OgrenciKayitDataSet1TableAdapters.Ogr_KayitTableAdapter ogr_KayitTableAdapter1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ıdDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn ogrNoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn ogrAdDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn ogrSoyadDataGridViewTextBoxColumn;
@@ -246,10 +251,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ogrDalDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn ogrCinsiyetDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn ogrAdresDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ıdDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn veliAdDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn veliTelDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn veliYakinlikDataGridViewTextBoxColumn;
-        private System.Windows.Forms.Button button1;
     }
 }
